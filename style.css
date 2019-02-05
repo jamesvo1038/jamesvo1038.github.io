@@ -15,30 +15,36 @@ hr {
   border-color: #F05F44;
 }
 
+hr:hover{
+  background-color: FFAA00;
+}
 .faded {
   color: rgba(255, 255, 255, 0.8);
 }
 
 header.startup {
   background-position: center;
-  background-image: url("5.1 header.jpg");
+  background-image: url("http://albania.al/Images/Resized/cx0gqd6f5810e5207ff9d_2400_1400_C_75.jpg");
   background-size: cover;
   height: 100%;
 }
 
 header.startup hr {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 30px;
 }
 
 header.startup h1 {
-  font-size: 2rem;
+  font-size: 6rem;
+  margin-top: 260px;
+  font-weight: 600;
+
 }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 300px;
+  border-radius: 250px;
   font-family: 'Montserrat', sans-serif;
 }
 
